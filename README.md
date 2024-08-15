@@ -81,3 +81,11 @@ def new_stat_function(dbConn):
     # Your SQL query and data processing logic here
     # e.g., dbCursor.execute('SELECT * FROM new_table')
     dbCursor.close()
+
+## File Structure
+
+### CTA Analysis Project
+- **main.py**: Python script that interacts with a SQLite database to analyze CTA L train data.
+- **CTA2_L_daily_ridership.db**: SQLite database containing daily ridership data for the CTA L train system.
+- **README.md**: Documentation file that describes the project, installation instructions, and usage.
+
