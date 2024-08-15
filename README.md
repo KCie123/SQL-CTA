@@ -74,13 +74,13 @@ Download and place the CTA2_L_daily_ridership.db SQLite database file into the p
    - The modular structure of the code allows you to add more functions to analyze different aspects of the dataset or to visualize data in new ways.
 
 ### Example:
-```python
+        ```python
 # Example of how to add a new statistic to be calculated:
-def new_stat_function(dbConn):
-    dbCursor = dbConn.cursor()
-    # Your SQL query and data processing logic here
-    # e.g., dbCursor.execute('SELECT * FROM new_table')
-    dbCursor.close()
+        def new_stat_function(dbConn):
+            dbCursor = dbConn.cursor()
+            # Your SQL query and data processing logic here
+            # e.g., dbCursor.execute('SELECT * FROM new_table')
+            dbCursor.close()
 
 ## File Structure
 
